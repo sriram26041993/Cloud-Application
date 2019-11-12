@@ -1,5 +1,5 @@
 <h1>Hi {{currentUser.firstName}}!</h1>
-<p>You're logged in with Angular 8!!</p>
+<p>Welcome to the weather alerts and clothes recommending place.</p>
 <h3>All registered users:</h3>
 <ul>
     <li *ngFor="let user of users">
@@ -7,3 +7,7 @@
         - <a (click)="deleteUser(user.id)" class="text-danger">Delete</a>
     </li>
 </ul>
+
+        <h5>Click below for the current Wind and Dew point values:</h5>
+    <a [routerLink]="['/environmentalerts']" class="btn btn-link">environment alerts</a>
+ 

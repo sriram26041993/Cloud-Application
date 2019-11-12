@@ -1,0 +1,88 @@
+
+body{
+    margin:0px;
+}
+
+.vil{ 
+background-image: url('../assets/school.jpg');
+background-size: cover;
+background-position: center center;
+position: relative;
+top: 0;
+bottom: 0;
+height: 100vh;
+z-index: -10; 
+}  
+ 
+
+.container{
+position: absolute;
+background-color: rgba(0,0,0,0.5);
+top: 0;
+bottom: 0;
+height: 100%;
+width: 100%;
+z-index: -5;
+
+} 
+
+.main-heading{
+    font-style: normal;
+    font-size: 80px;
+    font-family: "Avenir Next Cyr W00 Bold";
+    font-size: 3.125em;
+    flex-grow: 1;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.login-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: absolute;
+    left: 300px;
+    top: 565px;
+    cursor: pointer;
+    
+  }
+
+  .signup-button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: absolute;
+    left: 1000px;
+    top: 565px;
+    cursor: pointer;
+    
+  }
+  .main-login-matter{
+        font-size: 16px;
+        color: white;
+        position: absolute; 
+        font-family: arial; 
+        top: 500px; width: 400px;
+        left: 200px; height: 100px;
+      }
+      .main-signup-matter{
+        font-size: 16px;
+        color: white;
+        position: absolute; 
+        font-family: arial; 
+        top: 500px; width: 400px;
+        left: 900px; height: 100px;
+      }
+
+     
